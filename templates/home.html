@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME!</title>
+    <style>
+        body {
+            background-color: rgb(236, 143, 205);
+        }
+    </style>
+    
+</head>
+<body> 
+    <div class="link">
+    <h1>Login Aunthication system</h1>
+    <a href="{{url_for('login_page')}}"><h2>login page</h2></a>
+    
+    <a href="{{url_for('register_page')}}"><h2>client registeration page</h2></a>
+    
+    <a href="{{url_for('client_login_page')}}"><h2>client login</h2></a>
+</div>
+<style type="text/CSS">
+    .link{
+        text-align: center;
+        padding: 10px;}
+        </style>
+</body>
+</html>
